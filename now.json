@@ -1,7 +1,7 @@
 {
   "name": "PI As a Service",
   "alias": ["PIaaS", "piAsAService"],
-  "version": 1,
+  "version": 2,
   "builds": [
     { "src": "next.config.js", "use": "@now/next" },
     { "src": "api/api.js", "use": "@now/node-server" }
